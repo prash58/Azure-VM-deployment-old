@@ -1,0 +1,6 @@
+---
+   - name: Greeting message
+     hosts: localhost
+     tasks:
+       debug:
+         msg: "Hi Prashant, you're genious"
