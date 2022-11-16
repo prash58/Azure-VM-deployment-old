@@ -4,3 +4,8 @@
      tasks:
       - debug:
           msg: "Hi Prashant you are genius"
+
+   - name: Create Azure VM
+     azure_rm_resourcegroup:
+      name: myRG
+      location: eastus
