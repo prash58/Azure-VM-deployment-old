@@ -1,0 +1,11 @@
+---
+
+- name: Create VM
+  hosts: localhost
+  connection: local
+  
+  tasks:
+  - name: Create Resource Group
+    azure_rm_resourcegroup:
+      name: myRG
+      location: eastus
